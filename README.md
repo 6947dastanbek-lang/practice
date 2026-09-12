@@ -31,3 +31,12 @@ DARSIMIZ REJASI
 -String hagida mushohada qilamiz
 -Booleanlarni o'rganamiz
 ```
+
+## 2 Dars FUNCTIONLAR
+
+```
+-Funcyiomlarning DEFINE va CALL jarayonlari
+-Parametr va Argument
+-Keyword va Default argumaentlar
+-Functionlarda Scope tushunchasini o'rganamiz
+```
