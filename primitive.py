@@ -5,28 +5,28 @@ print("=====Number=====")
 count = 100
 count_type = type(count)
 # print("count:", count, count_type)
-print(f"the count:{count}and type {count_type}")
+print(f"the count: {count} and type: {count_type} ")
 
 
-result1 = count.bit_count()  # method
-result2 = count.numerator  # state
+result1 = count.bit_count()  # method (bit_cound =>index sanaydi)
+result2 = count.numerator  # state toshkadan keyin belgige qarap ajiratsa boladi
 print(result1, result2)
 
 
 print("=====String======")
 # METHODS: upper) lower) title() find() replace()
-course = "AI Python FullStack"  # COURSE dep har turli stringlardi alsa boladi
+course = "AI python fullStack"  # COURSE dep har turli stringlardi alsa boladi
 result = type(course)
 print(f"the result (1): {result}")
 
-result = course.title()
+result = course.title()  # 1shiler ulken harip
 print(f"the result (2): {result}")
 
-result = course. upper()
+result = course. upper()  # ULKEN HARIP
 print(f"the result (3): {result}")
 
 # usi result di course tenlesen pastegi bas qiymatqa tasir otkeredi ⬇️
-result = course. replace("FullStack", "MasterClass")
+result = course.replace("fullStack", "MasterClass")
 print(f"the result (4): {result}")
 print(course)  # Baslangish qiymatti ozgertirmeydi!!!⬆️
 

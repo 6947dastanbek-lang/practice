@@ -8,7 +8,7 @@
 
 print("=====DEFINE va CALL=====")
 # build in fuctionlar >print ()type()
-# Function -Reusable block of code! Malum bir mantiqni ishga tushrip beradigan cod block
+# Function -Reusable block of code! Malumot bir mantiqni ishga tushrip beradigan cod block
 # Instead of block {} in JAVA,Python uses indentation!
 
 # DEFINE indentation!
@@ -43,7 +43,8 @@ def give_greet(name, age):
     return f"Hello {name},you are {age} years old"
 
 
-# CALL
+# CALL # Keyword
+
 result3 = give_greet(name="Danny", age=29)
 print("result3:", result3)
 # DEFINE # Default arguments
